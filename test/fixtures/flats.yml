@@ -4,16 +4,12 @@ one:
   name: MyString
   address: MyString
   description: MyText
-  price_per_night: MyString
-  integer: MyString
-  number_of_guests: MyString
-  integer: MyString
+  price_per_night: 1
+  number_of_guests: 1
 
 two:
   name: MyString
   address: MyString
   description: MyText
-  price_per_night: MyString
-  integer: MyString
-  number_of_guests: MyString
-  integer: MyString
+  price_per_night: 1
+  number_of_guests: 1
