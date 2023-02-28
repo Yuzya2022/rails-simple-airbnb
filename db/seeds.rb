@@ -12,6 +12,7 @@ require 'faker'
   description = Faker::Name.name
   number_of_guests = rand(1..3)
   price_per_night = [75, 100, 125, 150, 200].sample
-  Flat.create(name: name, address: address, description: description, number_of_guests: number_of_guests, price_per_night: price_per_night)
+  picture_url = 'https://images.unsplash.com/photo-1494526585095-c41746248156?w=1200'
+  Flat.create(name: name, address: address, description: description, number_of_guests: number_of_guests, price_per_night: price_per_night, picture_url: picture_url)
   puts "flats created"
 end
